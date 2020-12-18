@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" stylesheets="@styleMenu.css"
+            fx:controller="classes.Controller" prefHeight="600.0" prefWidth="800.0">
+    <Button AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" prefWidth="125" text="Retour au menu" onAction="#goToMenu"/>
+    <Label text="Pour confectionner vos matrices :"
+           AnchorPane.topAnchor="70" AnchorPane.leftAnchor="115" scaleX="2" scaleY="2"/>
+    <Label text="Entrez les nombres de la première colonne, séparés par un espace"
+           AnchorPane.topAnchor="110" AnchorPane.leftAnchor="230" scaleX="2" scaleY="2"/>
+    <Label text="Pour changer de lignes : appuyez sur ENTRÉE"
+           AnchorPane.topAnchor="150" AnchorPane.leftAnchor="175" scaleX="2" scaleY="2"/>
+</AnchorPane>

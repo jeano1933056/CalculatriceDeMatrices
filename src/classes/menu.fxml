@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" stylesheets="@styleMenu.css"
+            xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="classes.Controller">
+    <Label alignment="CENTER" scaleX="4" scaleY="4" text="Calculatrice de matrices" AnchorPane.leftAnchor="330" AnchorPane.topAnchor="150">
+      <font>
+         <Font name="Futura Medium" size="13.0" />
+      </font>
+    </Label>
+    <Button layoutX="381.0" onAction="#goToAdditionScene" prefHeight="27.0" prefWidth="114.0" text="Commençons" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="250" />
+    <Button layoutX="381.0" onAction="#goToTutoriel" prefHeight="27.0" prefWidth="114.0" text="Tutoriel" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="300" />
+    <Button layoutX="381.0" onAction="#goToRemerciements" prefHeight="27.0" prefWidth="114.0" text="Remerciements" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="350" />
+</AnchorPane>

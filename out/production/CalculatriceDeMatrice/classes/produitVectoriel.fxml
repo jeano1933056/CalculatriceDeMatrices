@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" stylesheets="@styleMenu.css"
+            xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="package.Controller">
+    <Button onAction="#afficherProduitVectoriel" minWidth="25" minHeight="25" text="=" AnchorPane.leftAnchor="388.0" AnchorPane.topAnchor="275.0" />
+    <TextArea fx:id="firstMatrice" prefHeight="25" prefWidth="125" AnchorPane.leftAnchor="245" AnchorPane.topAnchor="130" />
+    <TextArea fx:id="deuxiemeMatrice" prefHeight="25" prefWidth="125" AnchorPane.leftAnchor="430" AnchorPane.topAnchor="130" />
+    <Label fx:id="labelResultats" prefHeight="100" prefWidth="150" AnchorPane.leftAnchor="350" AnchorPane.topAnchor="300" />
+    <Label prefHeight="17.0" prefWidth="11.0" text="*" AnchorPane.leftAnchor="397.0" AnchorPane.topAnchor="140.0" />
+
+    <Button onAction="#goToHadamardScene" prefWidth="175" text="Produit d'Hadamard" AnchorPane.leftAnchor="100" AnchorPane.topAnchor="300" />
+    <Button onAction="#goToAdditionScene" prefWidth="175" text="Addition" AnchorPane.leftAnchor="100" AnchorPane.topAnchor="350" />
+    <Button onAction="#goToSoustractionScene" prefWidth="175" text="Soustraction" AnchorPane.leftAnchor="100" AnchorPane.topAnchor="400" />
+    <Button disable="true" underline="true" onAction="#goToProduitVectorielScene" prefWidth="175" text="Produit vectoriel" AnchorPane.leftAnchor="100" AnchorPane.topAnchor="450" />
+    <Button onAction="#goToTranspositionScene" prefWidth="175" text="Transposition" AnchorPane.leftAnchor="525" AnchorPane.topAnchor="300" />
+    <Button onAction="#goToDeterminantScene" prefWidth="175" text="Déterminant (seulement 3x3)" AnchorPane.leftAnchor="525" AnchorPane.topAnchor="350" />
+    <Button onAction="#goToProduitMatricielScene" prefWidth="175" text="Produit Matriciel" AnchorPane.leftAnchor="525" AnchorPane.topAnchor="400" />
+    <Button onAction="#goToInverseScene" prefWidth="175" text="Inverse" AnchorPane.leftAnchor="525" AnchorPane.topAnchor="450" />
+    <Button AnchorPane.topAnchor="500" AnchorPane.leftAnchor="312" prefWidth="175" text="Multiplication par un nombre" onAction="#goToMultiParNombre"/>
+
+    <Button AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" prefWidth="125" text="Retour au menu" onAction="#goToMenu"/>
+</AnchorPane>

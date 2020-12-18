@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" stylesheets="@styleMenu.css"
+            fx:controller="classes.Controller" prefHeight="600.0" prefWidth="800.0">
+    <Button AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" prefWidth="125" text="Retour au menu" onAction="#goToMenu"/>
+    <Label AnchorPane.topAnchor="200" AnchorPane.leftAnchor="250" scaleX="3" scaleY="3" text="Joyeuses fêtes et bonne année..."/>
+    <Label AnchorPane.topAnchor="250" AnchorPane.leftAnchor="400" scaleX="3" scaleY="3" text="À la prochaine session!"/>
+</AnchorPane>

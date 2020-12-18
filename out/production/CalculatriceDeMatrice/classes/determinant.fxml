@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" stylesheets="@styleMenu.css"
+            fx:controller="package.Controller" prefHeight="600.0" prefWidth="800.0">
+    <Button text="=" minWidth="25" minHeight="25" AnchorPane.leftAnchor="388.0" AnchorPane.topAnchor="275.0" onAction="#afficherDeterminant"/>
+    <TextArea fx:id="firstMatrice" prefHeight="100" prefWidth="125" AnchorPane.leftAnchor="338" AnchorPane.topAnchor="100"/>
+    <Label fx:id="labelResultats" prefHeight="100" prefWidth="150" AnchorPane.leftAnchor="350" AnchorPane.topAnchor="300"/>
+
+    <Button AnchorPane.topAnchor="300" AnchorPane.leftAnchor="100" prefWidth="175" text="Produit d'Hadamard" onAction="#goToHadamardScene"/>
+    <Button AnchorPane.topAnchor="350" AnchorPane.leftAnchor="100" prefWidth="175" text="Addition" onAction="#goToAdditionScene"/>
+    <Button AnchorPane.topAnchor="400" AnchorPane.leftAnchor="100" prefWidth="175" text="Soustraction" onAction="#goToSoustractionScene"/>
+    <Button AnchorPane.topAnchor="450" AnchorPane.leftAnchor="100" prefWidth="175" text="Produit vectoriel" onAction="#goToProduitVectorielScene"/>
+    <Button AnchorPane.topAnchor="300" AnchorPane.leftAnchor="525" prefWidth="175" text="Transposition" onAction="#goToTranspositionScene"/>
+    <Button AnchorPane.topAnchor="350" AnchorPane.leftAnchor="525" disable="true" underline="true" prefWidth="175" text="Déterminant (seulement 3x3)" onAction="#goToDeterminantScene"/>
+    <Button AnchorPane.topAnchor="400" AnchorPane.leftAnchor="525" prefWidth="175" text="Produit Matriciel" onAction="#goToProduitMatricielScene"/>
+    <Button AnchorPane.topAnchor="450" AnchorPane.leftAnchor="525" prefWidth="175" text="Inverse" onAction="#goToInverseScene"/>
+    <Button AnchorPane.topAnchor="500" AnchorPane.leftAnchor="312" prefWidth="175" text="Multiplication par un nombre" onAction="#goToMultiParNombre"/>
+
+    <Button AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" prefWidth="125" text="Retour au menu" onAction="#goToMenu"/>
+</AnchorPane>

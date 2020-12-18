@@ -1,0 +1,20 @@
+Alyssia Bernard & Noémie Jean-Riverin
+- Le programme fonctionne avec des matrices statiques de 3x3
+- Le programme fonctionne avec des matrices dynamiques de dimensions arbitraires
+- Addition et soustraction de matrices
+- Multiplication avec un nombre
+- Transposition
+- Inversion
+- Multiplication de matrices
+- Produit matriciel
+- Produit vectoriel
+- Produit d’Hadamard
+- Calcul du déterminant (3x3)
+- Le programme permet d’entrer directement les matrices
+- Le programme affiche le résultat
+- Le programme compile et est stable
+- Le programme a un style visuel attrayant
+- Les algorithmes utilisés pour les calculs sont efficaces
+- Le code utilise adéquatement l’architecture MVC
+- Le code utilise adéquatement les principes de l’orienté objet
+- Le projet est remis sur Github
